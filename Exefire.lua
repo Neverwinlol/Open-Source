@@ -3,8 +3,8 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "ExeFire - BETA Tester | V2.0",
-    SubTitle = "| Beekidnapped",
+    Title = "Depth hub - BETA Tester | V2.0",
+    SubTitle = "| Depth real",
     TabWidth = 180,
     Size = UDim2.fromOffset(580, 460),
     Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
@@ -22,7 +22,7 @@ local Options = Fluent.Options
 
 do
     Fluent:Notify({
-        Title = "ExeFire Are Execute Now",
+        Title = "Depth hub Are Execute Now",
         Content = "Report Soon",
         SubContent = "or copy the link trough the 'Misc' page", -- Optional
         Duration = 3.5 -- Set to nil to make the notification not disappear
@@ -33,7 +33,7 @@ local Mainy = Tabs.Main:AddSection("Parry")
 
 Mainy:AddParagraph({
         Title = "Use Auto Parry With Auto Spam Beta",
-        Content = "ExeFire Is New Script That Made By Beekidnapped And Auto Parry Auto Spam Parry Are Work And Can Move While Parry Too"
+        Content = "Depth Is New Script That Made By Beekidnapped And Auto Parry Auto Spam Parry Are Work And Can Move While Parry Too"
     })
     
     Mainy:AddButton({
